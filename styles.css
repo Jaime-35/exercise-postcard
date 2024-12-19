@@ -2,7 +2,6 @@ body {
 	background: black;
 }
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 .postcard {
@@ -31,16 +30,18 @@ postcard-header h1 {
 }
 .body-left,
 .body-right {
+	height: 100px;
 	padding: 0;
 }
 input {
 	border: 0;
-	border-bottom: 0;
+	border-bottom: 1px solid;
 }
 .postcard-footer {
 	text-align: center;
 }
 button {
+	margin-top: 50px;
 	background-color: gainsboro;
 	padding: 0;
 }
